@@ -6,7 +6,7 @@
   "author": "alexkrolick",
   "main": "src/index.js",
   "scripts": {
-    "test": "react-scripts test"
+    "test": "jest"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -14,10 +14,12 @@
   "dependencies": {
     "@testing-library/dom": "latest",
     "@testing-library/jest-dom": "latest",
-    "@testing-library/react": "latest",
+    "@testing-library/react": "13.0.0-alpha.6",
     "jest": "latest",
-    "react": "latest",
-    "react-dom": "latest",
+    "jsdom": "^19.0.0",
+    "jsdom-global": "^3.0.2",
+    "react": "^18.0.0-rc.2",
+    "react-dom": "^18.0.0-rc.2",
     "react-scripts": "latest"
   }
 }
